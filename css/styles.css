@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+}
+
+h1 {
+  margin: 3.13rem auto 0 auto;
+  font-family: 'Space Mono', monospace;
+  font-size: 3.12rem;
+  color: #525E75;
+}
+
+
+/* h3 {
+  font-family:
+} */
+
+a {
+  color: #525E75;
+  margin: 1.56rem 0.63rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #21325E;
+}
+
+/* hr {
+  border-style: dotted none none;
+  border-width: 7px;
+  width: 5%;
+  color: #92BA92;
+} */
+
+h2 {
+  font-weight: normal;
+  color: #354259;
+  margin: 0;
+}
+
+h3 {
+  color: #525E75;
+}
+
+p {
+  padding-bottom: 1.56rem;
+  line-height: 2;
+  color: #354259;
+}
+
+.top-container {
+  background-color: #92BA92;
+  position: relative;
+  padding-top: 6.25rem;
+}
+
+.middle-container {
+  background-color: #78938A;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #92BA92;
+  position: relative;
+  padding-bottom: 0.313rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 18.75rem;
+  bottom: 18.75rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18.75rem;
+  top: 3.13rem;
+}
+
+.profile-pic {
+  width: 20%;
+  position: relative;
+  bottom: 3.13rem;
+}
+
+.computer {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 1.88rem;
+}
+
+.camera {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 1.88rem;
+}
+.attribution {
+  font-size: 0.5rem;
+}
+
+.caption {
+  font-size: .90rem;
+  font-family: 'Courier Prime', monospace;
+  color: #78938A;
+}
+
+.skills {
+  margin-top: 1.56rem;
+  background-color: #92BA92;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 6.25rem auto 3.13rem;
+  text-align: left;
+}
+
+.contact-me {
+  padding-top: 1.56rem;
+  padding-bottom: 4.69rem;
+}
+
+.profile {
+  position: relative;
+}
+
+h2.skill-txt {
+  padding-top: 1.25rem;
+}
+
+.copyright {
+  margin-bottom: 0;
+  font-size: 0.88rem;
+}
+
+.bio {
+  position: relative;
+  width: 35%;
+  margin: 0.63rem auto;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: #525E75;
+  padding: 10px 20px;
+  text-decoration: none
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
